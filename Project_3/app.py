@@ -3,7 +3,7 @@ import os
 import pandas as pd
 import streamlit as st
 
-CLEAN = "data/clean"
+CLEAN = os.path.join(os.path.dirname(__file__), "data", "clean")
 MIN_VIEWS = 1000
 
 st.set_page_config(page_title="Campaign Intelligence Engine", layout="wide")
