@@ -5,9 +5,6 @@ import streamlit as st
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 CLEAN = os.path.join(BASE_DIR, "data", "clean")
-st.write("App folder:", BASE_DIR)
-st.write("CSV folder:", CLEAN)
-st.write("Files found:", os.listdir(CLEAN))
 MIN_VIEWS = 1000
 
 st.set_page_config(page_title="Campaign Intelligence Engine", layout="wide")
